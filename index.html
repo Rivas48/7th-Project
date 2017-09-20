@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Video and Audio</title>
+   
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <!--- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaelementplayer.css">
+    <link rel="stylesheet" href="css/normalize.css">
+   
+  </head>
+  <body>
+
+    
+      <!--- Wrapper -->
+
+    <div class="wrapper">
+ 	  <!--- Heading -->
+      <h2>7th Project</h2>
+
+      <!--- Video Wrapper -->
+
+      <div class="videoWrapper">
+    
+     <!--- Video Content-->
+
+        <video id="video" class="mejs__player mejs__player-custom" style="width:100%; height:100%;" preload="none" data-mejsoptions controls duration>
+          <source src="video/video.mp4" type="video/mp4">
+          <source src="video/video.ogg" type="video/ogg">
+          <track label="English" kind="subtitles" srclang="en" src="video/bridge-captions.vtt"/>
+        </video>
+        <svg class="svgspin" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style=" display:none; enable-background:new 0 0 512 512;" xml:space="preserve">
+	 	<a href="http://www.mediaelementjs.com/">
+<g>
+	<g>
+		<path class="play-button" style="fill:orange;"  d="M437.02,74.98C388.667,26.629,324.38,0,256,0S123.333,26.629,74.98,74.98C26.629,123.333,0,187.62,0,256
+			s26.629,132.667,74.98,181.02C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.98
+			C485.371,388.667,512,324.38,512,256S485.371,123.333,437.02,74.98z M415.806,415.806C373.12,458.492,316.367,482,256,482
+			s-117.12-23.508-159.806-66.194C53.508,373.12,30,316.367,30,256S53.508,138.88,96.194,96.194C138.88,53.508,195.633,30,256,30
+			s117.12,23.508,159.806,66.194C458.492,138.88,482,195.633,482,256S458.492,373.12,415.806,415.806z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="play-button" style="fill:orange;" d="M175.151,125.198v261.604L401.707,256L175.151,125.198z M205.152,177.161L341.707,256l-136.555,78.84V177.161z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</a>
+</svg>
+      </div>
+
+      
+  	</div>
+
+		<div>
+			<!--- Span Wrapper -->
+
+			<div class="myclass">
+				<p>
+				<span data-start="0.240" data-end="4.130">
+					Now that we've looked at the architecture
+					of the internet, let's see how you might
+				</span>
+				<span data-start="4.130" data-end="7.535">
+					connect your personal devices to
+					the internet inside your house.
+				</span>
+				<span data-start="7.535" data-end="11.270">
+					Well there are many ways to
+					connect to the internet, and
+				</span>
+				<span data-start="11.270" data-end="13.960">
+					most often people connect wirelessly.
+				</span>
+				</p>
+				<p>
+				<span data-start="13.960" data-end="17.940">
+					Let's look at an example of how
+					you can connect to the internet.
+				</span>
+				<span data-start="17.940" data-end="22.370">
+					If you live in a city or a town,
+					you probably have a coaxial cable for
+				</span>
+				<span data-start="22.370" data-end="26.880">
+					cable Internet, or a phone line if you
+					have DSL, running to the outside of
+				</span>
+				<span data-start="26.880" data-end="30.920">
+					your house, that connects you to
+					the Internet Service Provider, or ISP.
+				</span>
+				<span data-start="32.100" data-end="34.730">
+					If you live far out in the country,
+					you'll more likely have
+				</span>
+				<span data-start="34.730" data-end="39.430">
+					a dish outside your house, connecting
+					you wirelessly to your closest ISP, or
+				</span>
+				<span data-start="39.430" data-end="41.190">
+					you might also use the 	telephone system.
+				</span>
+				</p>
+				<p>
+				<span data-start="42.350" data-end="46.300">
+					Whether a wire comes straight from
+					the ISP hookup outside your house, or
+				</span>
+				<span data-start="46.300" data-end="49.270">
+					it travels over radio
+					waves from your roof,
+				</span>
+				<span data-start="49.270" data-end="53.760">
+					the first stop a wire will make once
+					inside your house, is at your modem.
+				</span>
+				<span data-start="53.760" data-end="57.780">
+					A modem is what connects the internet
+					to your network at home.
+				</span>
+				<span data-start="57.780" data-end="60.150">
+					A few common residential modems are DSL or
+				</span>
+				</p>
+				</div>
+
+
+				
+				<!-- Scripts -->
+
+				<script src="js/jquery.js"></script>
+				<script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+				<script src="js/highlight.js"></script>
+
+				
+
+
+				<script>  
+    {$('video, audio').mediaelementplayer({
+     features: ['playpause', 'progress', , 'skipback', 'speed', 'tracks', 'volume', 'fullscreen'],
+     duration:120
+    });
+  
+</script>
+
+
+		</div>
+
+		</body>
+</html>
